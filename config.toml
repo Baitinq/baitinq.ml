@@ -1,0 +1,52 @@
+baseURL = 'http://baitinq.github.io/'
+languageCode = 'en-us'
+title = 'Baitinq'
+math = true
+
+theme = "researcher"
+
+
+[params]
+  author = "Baitinq"
+  description = "Personal website."
+  favicon = "favicon.ico"  # path to a .ico to use as favicon
+  logo = ""  # url or path to a logo to put in the header
+  [params.footer]
+    text = "By Baitinq"
+    url = "https://github.com/Baitinq/baitinq.github.io"
+  [params.style]  # appearance options (can be omitted)
+    fontFamily = "Inconsolata"
+    pageWidth = "750px"
+    avatarSize = "90px"
+    colorBlack = "#222222"
+    colorRed = "#dc3545"
+  [[params.socialIcons]]
+    icon = "fab fa-github"
+    title = "GitHub"
+    url = "https://github.com/Baitinq"
+  [[params.socialIcons]]
+    icon = "fas fa-key"
+    title = "Keybase"
+    url = "https://keybase.io/baitinq"
+  [[params.socialIcons]]
+    icon = "fas fa-envelope"
+    title = "E-mail"
+    url = "mailto:mail@example.com"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 1
+  [[menu.main]]
+    name = "Resume"
+    url = "/cv.pdf"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog"
+    weight = 1
