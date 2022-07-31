@@ -12,6 +12,8 @@
 
     {{ $style := resources.Get "sass/researcher.scss" | resources.ExecuteAsTemplate "sass/researcher.scss" . | toCSS | minify }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    {{ $darkstyle := resources.Get "css/dark.css" | minify }}
+    <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ $darkstyle.RelPermalink }}">
 
     {{ with .Site.Params.favicon }}
         <link rel="icon" type="image/ico" href="{{ . | absURL }}">
@@ -24,4 +26,5 @@
     {{ if not .Site.IsServer }}
         {{ template "_internal/google_analytics.html" . }}
     {{ end }}
+
 </head>
