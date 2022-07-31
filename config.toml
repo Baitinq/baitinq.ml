@@ -34,6 +34,10 @@ theme = "researcher"
 
 [menu]
   [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
     name = "Resume"
     url = "/cv.pdf"
     weight = 1
