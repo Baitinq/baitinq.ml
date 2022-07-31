@@ -40,15 +40,15 @@ theme = "researcher"
   [[menu.main]]
     name = "Resume"
     url = "/cv.pdf"
-    weight = 1
+    weight = 4
   [[menu.main]]
     name = "Projects"
     url = "/projects"
-    weight = 1
+    weight = 2
   [[menu.main]]
     name = "Blog"
     url = "/blog"
-    weight = 1
+    weight = 3
 
 [permalinks]
   blog = "/posts/:filename"
