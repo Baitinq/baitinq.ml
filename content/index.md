@@ -7,3 +7,7 @@ draft: false
 # About Me
 
 Interesting things.
+
+# Contact
+
+# Identity
