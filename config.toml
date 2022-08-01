@@ -57,3 +57,6 @@ theme = "researcher"
 [permalinks]
   blog = "/posts/:filename"
   projects = "/project/:filename"
+
+[markup.goldmark.renderer]
+  unsafe = true
