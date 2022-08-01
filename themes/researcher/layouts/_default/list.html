@@ -6,5 +6,7 @@
             <li><a href="{{ .Permalink }}">{{ if not .Params.notshowthedate }} {{ .Date.Format "2006-01-02" }} | {{ end }} {{ .Title }}</a></li>
 	{{ end }}
     </ul>
+{{ .Content}}
 </div>
+
 {{ end }}
