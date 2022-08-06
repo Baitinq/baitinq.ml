@@ -5,13 +5,17 @@ var toggle = document.getElementById("dark-mode-toggle");
 var darkTheme = document.getElementById("dark-mode-theme");
 var savedTheme = localStorage.getItem("dark-mode-storage") || "light";
 
+const darkThemeClassName = "fas fa-moon ml-4 mt-2";
+const lightThemeClassName = "fas fa-sun ml-4 mt-2";
+
 setTheme(savedTheme);
+
 
 toggle.addEventListener("click", () => {
 
-		if (toggle.className === "fas fa-moon") {
+		if (toggle.className === darkThemeClassName) {
         setTheme("dark");
-    } else if (toggle.className === "fas fa-sun") {
+    } else if (toggle.className === lightThemeClassName) {
         setTheme("light");
     }
 });
@@ -21,10 +25,10 @@ function setTheme(mode) {
 
     if (mode === "dark") {
         darkTheme.disabled = false;
-        toggle.className = "fas fa-sun";
+        toggle.className = lightThemeClassName;
     } else if (mode === "light") {
         darkTheme.disabled = true;
-        toggle.className = "fas fa-moon";
+        toggle.className = darkThemeClassName;
     }
 }
 </script>
