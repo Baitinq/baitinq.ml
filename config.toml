@@ -2,6 +2,7 @@ baseURL = 'https://baitinq.ml'
 languageCode = 'en-us'
 title = 'Baitinq'
 enableRobotsTXT = true
+enableGitInfo = true
 
 theme = "researcher"
 

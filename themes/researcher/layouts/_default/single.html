@@ -1,5 +1,13 @@
 {{ define "main" }}
 <div class="container">
-    {{ .Content }}
+{{ if eq .Type "blog" }}
+        <span class="date">{{ .PublishDate.Format "January 2, 2006" }} - </span>
+	<span class="words">{{ .WordCount }} words - </span>
+	<span class="reading">{{ .ReadingTime }} minute read.</span>
+{{ end }}
+{{ .Content }}
+{{ if eq .Type "blog" }}
+	<span class="lastmod">Last updated {{ .Lastmod.Format "Jan 2, 2006" }}</span>
+{{ end }}
 </div>
 {{ end }}
