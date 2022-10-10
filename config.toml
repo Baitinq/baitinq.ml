@@ -1,4 +1,4 @@
-baseURL = 'https://baitinq.github.io/'
+baseURL = 'https://baitinq.ml'
 languageCode = 'en-us'
 title = 'Baitinq'
 enableRobotsTXT = true
@@ -12,7 +12,7 @@ theme = "researcher"
   logo = ""  # url or path to a logo to put in the header
   [params.footer]
     text = "By Baitinq"
-    url = "https://github.com/Baitinq/baitinq.github.io"
+    url = "https://github.com/Baitinq/baitinq.ml"
   [params.style]  # appearance options (can be omitted)
     fontFamily = "Inconsolata"
     pageWidth = "750px"

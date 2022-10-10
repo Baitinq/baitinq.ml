@@ -1,5 +1,5 @@
 {
-  description = "baitinq.github.io flake";
+  description = "baitinq.ml shell flake";
 
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
