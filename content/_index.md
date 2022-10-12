@@ -13,7 +13,7 @@ I’m not currently looking for work, but if you have any interesting opportunit
 
 # Online Identity
 
-PGP Public Key: [`BB3C 0BC6 9865 0937`](https://keybase.io/baitinq/pgp_keys.asc)
+PGP Public Key: [`BB3C 0BC6 9865 0937`](/public.pgp)
 
 I am proving the ownership of this key by signing my [resume](/cv.pdf) with the following [signature](/cv.asc).
 
