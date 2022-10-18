@@ -11,9 +11,12 @@ theme = "researcher"
   description = "Personal website."
   favicon = "favicon.ico"  # path to a .ico to use as favicon
   logo = ""  # url or path to a logo to put in the header
-  [params.footer]
+  [params.footer1]
     text = "By Baitinq"
     url = "https://github.com/Baitinq/baitinq.ml"
+  [params.footer2]
+    text = "Hosted on NixOS."
+    url = "https://nixos.org"
   [params.style]  # appearance options (can be omitted)
     fontFamily = "Inconsolata"
     pageWidth = "750px"

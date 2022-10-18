@@ -7,9 +7,13 @@
         {{ end }}
     </div>
     {{ end }}
-    {{ with .Site.Params.footer }}
         <div class="container text-center">
+    {{ with .Site.Params.footer1 }}
             <a href="{{ .url | absURL }}" title="{{ .text }}"><small>{{ .text }}</small></a>
-        </div>
+    {{ end }} -
+{{ with .Site.Params.footer2 }}
+            <a href="{{ .url | absURL }}" title="{{ .text }}"><small>{{ .text }}</small></a>
     {{ end }}
+        </div>
+
 </div>
