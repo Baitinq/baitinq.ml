@@ -5,11 +5,11 @@ draft: false
 
 # About Me
 
-I’m a recently graduated software engineer residing in Spain.
+I am a computer science graduate pursuing a master's degree in the same field.
 
-I’m an aspiring generalist who loves programming and engineering in all of their forms, with additional interests in astronomy and esoteric fields.
+I have a passion for programming and engineering in all its forms, as well as a special fascination for astronomy and esoteric fields.
 
-I’m not currently looking for work, but if you have any interesting opportunities, you can preferably get in contact with me via [email](mailto:manuelpalenzuelamerino@gmail.com).
+If you have any interesting work-related opportunities, don't hesitate to get in touch with me via [email](mailto:manuelpalenzuelamerino@gmail.com).
 
 # Online Identity
 
