@@ -4,7 +4,7 @@ date: 2022-07-31T17:28:44+02:00
 draft: false
 ---
 
-# Example Post :)
+# Example Post [Some posts will be comming later :)]
 
 <br>
 
