@@ -15,7 +15,7 @@ If you have any interesting work-related opportunities, don't hesitate to get in
 
 PGP Public Key: [`BB3C 0BC6 9865 0937`](/public.pgp)
 
-I am proving the ownership of this key by signing my [resume](/cv.pdf) with the following [signature](/cv.asc).
+I am proving the ownership of this key by signing my [resume](/Manuel_Palenzuela_Merino_Resume.pdf) with the following [signature](/Manuel_Palenzuela_Merino_Resume_Signature.sig).
 
 # Current Interests
 
