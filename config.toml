@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Baitinq'
 enableRobotsTXT = true
 enableGitInfo = true
+disablePathToLower = true
 
 theme = "researcher"
 
@@ -47,7 +48,7 @@ theme = "researcher"
     weight = 1
   [[menu.main]]
     name = "Resume"
-    url = "/cv.pdf"
+    url = "/Manuel_Palenzuela_Merino_Resume.pdf"
     weight = 5
   [[menu.main]]
     name = "Projects"
