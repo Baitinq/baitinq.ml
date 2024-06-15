@@ -1,4 +1,4 @@
-baseURL = 'https://baitinq.ml'
+baseURL = 'https://leunam.dev'
 languageCode = 'en-us'
 title = 'Baitinq'
 enableRobotsTXT = true
@@ -60,7 +60,7 @@ theme = "researcher"
     weight = 4
   [[menu.main]]
     name = "Git"
-    url = "https://git.baitinq.ml"
+    url = "https://git.leunam.dev"
     weight = 2
 
 [permalinks]
