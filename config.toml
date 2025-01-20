@@ -64,7 +64,7 @@ theme = "researcher"
     weight = 2
 
 [permalinks]
-  blog = "/posts/:filename"
+  blog = "/blog/:filename"
   projects = "/project/:filename"
 
 [markup.goldmark.renderer]
